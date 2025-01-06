@@ -32,5 +32,5 @@ class Magician {
   }
 }
 
-module.exports = Magician;
+export default Magician;
 // npm test mythical-creatures/test/magician-test.js

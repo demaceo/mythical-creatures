@@ -13,6 +13,6 @@ class Medusa {
   }
 }
 
-module.exports = Medusa;
+export default Medusa;
 
 // npm test mythical-creatures/test/magician-test.js

@@ -1,5 +1,5 @@
-const assert = require('chai').assert;
-const Sphinx = require('../exercises/sphinx');
+import { assert } from 'chai';
+import Sphinx from "../exercises/sphinx.js";
 
 describe('Sphinx', () => {
   it('should be a function', () => {

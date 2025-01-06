@@ -11,4 +11,4 @@ class Pirate {
   }
 }
 
-module.exports = Pirate;
+export default Pirate;

@@ -25,5 +25,5 @@ class Ogre {
 }
 
 
-module.exports = Ogre;
+export default Ogre;
 // npm test mythical-creatures/test/ogre-test.js

@@ -57,4 +57,4 @@ class Centaur {
   }
 }
 
-module.exports = Centaur;
+export default Centaur;

@@ -1,6 +1,6 @@
-var assert = require('chai').assert;
-var Medusa = require('../exercises/medusa');
-var Person = require('../exercises/person');
+import { assert } from 'chai';
+import Medusa from "../exercises/medusa.js";
+import Person from "../exercises/person.js";
 
 describe('Medusa', function() {
 

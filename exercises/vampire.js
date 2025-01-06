@@ -10,4 +10,4 @@ class Vampire {
 }
 
 
-module.exports = Vampire;
+export default Vampire;

@@ -1,6 +1,6 @@
-var assert = require('chai').assert;
-var Werewolf = require('../exercises/werewolf');
-var Victim = require('../exercises/victim');
+import { assert } from 'chai';
+import Werewolf from "../exercises/werewolf.js";
+import Victim from "../exercises/victim.js";
 
 describe('Werewolf', function() {
 

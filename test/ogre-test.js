@@ -1,6 +1,6 @@
-const assert = require('chai').assert;
-const Ogre = require('../exercises/ogre');
-const Human = require('../exercises/human');
+import { assert } from 'chai';
+import Ogre from "../exercises/ogre.js";
+import Human from "../exercises/human.js";
 
 describe('Ogre', () => {
 

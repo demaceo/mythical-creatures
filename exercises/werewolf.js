@@ -31,4 +31,4 @@ class Werewolf {
 }
 
 
-module.exports = Werewolf;
+export default Werewolf;

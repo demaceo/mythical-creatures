@@ -3,7 +3,7 @@ class Fairy {
     this.name = name;
     this.dust = 10;
     this.clothes = {
-      dresses: ["Iris"]
+      dresses: ["Iris"],
     };
     this.disposition = "Good natured";
     this.humanWards = [];
@@ -15,7 +15,7 @@ class Fairy {
     this.dust += 10;
   }
   makeDresses(dresses) {
-    this.clothes.dresses = this.clothes.dresses.concat(dresses)
+    this.clothes.dresses = this.clothes.dresses.concat(dresses);
     // for(var i = 0; i< dresses.length; i++) {
     //   this.clothes.dresses.push(dresses[i])
     // }
@@ -31,7 +31,7 @@ class Fairy {
       return infant;
     } else {
       infant.disposition = "Malicious";
-      this.humanWards.push(infant)
+      this.humanWards.push(infant);
     }
     if (this.humanWards.length === 3) {
       this.disposition = "Good natured";
@@ -39,5 +39,5 @@ class Fairy {
   }
 }
 
-module.exports = Fairy;
+export default Fairy;
 // npm test mythical-creatures/test/fairy-test.js

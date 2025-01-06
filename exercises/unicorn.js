@@ -15,7 +15,7 @@ class Unicorn {
   }
 }
 
-module.exports = Unicorn;
+export default Unicorn;
 
 
 // npm test mythical-creatures/test/unicorn-test.js

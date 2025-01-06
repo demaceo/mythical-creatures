@@ -5,4 +5,4 @@ class Victim {
 
 }
 
-module.exports = Victim;
+export default Victim;

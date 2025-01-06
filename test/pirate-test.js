@@ -1,5 +1,5 @@
-var assert = require('chai').assert;
-var Pirate = require('../exercises/pirate');
+import { assert } from 'chai';
+import Pirate from "../exercises/pirate.js";
 
 describe('Pirate', function() {
 

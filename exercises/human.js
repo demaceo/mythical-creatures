@@ -13,4 +13,4 @@ class Human {
   }
 }
 
-module.exports = Human;
+export default Human;

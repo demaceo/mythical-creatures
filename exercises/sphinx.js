@@ -28,5 +28,5 @@ class Sphinx {
 
 
 
-module.exports = Sphinx;
+export default Sphinx;
 // npm test mythical-creatures/test/sphinx-test.js
