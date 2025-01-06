@@ -22,7 +22,7 @@ describe("Dragon", function () {
   });
 
   it("should have a rider", function () {
-    var dragon = new Dragon("Saphira", "Eragon");
+    var dragon = new Dragon("Saphira", "Eragon");git 
 
     assert.equal(dragon.name, "Saphira");
     assert.equal(dragon.rider, "Eragon");
